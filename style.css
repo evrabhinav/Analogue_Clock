@@ -1,0 +1,53 @@
+#ClockContainer{
+    position: relative;
+   background: url(clock\ png.png) no-repeat;
+   height: 40vw;
+   width: 40vw;
+   
+   margin: auto;
+   background-size: 100%;
+}
+
+body{
+    background-color: gray;
+    background: url(watch_bg.jfif);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hour, #min, #sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+
+#hour{
+    height: 22%;
+    width: 1%;
+    top: 28%;
+    left: 49.5%;
+    transform-origin: bottom;
+    background:  darkgreen;
+
+}
+
+ #min{
+    height: 34%;
+    width: 1%;
+    top: 16%;
+    left: 49.5%;
+    transform-origin: bottom;
+    background-color: red;
+} 
+
+ #sec{
+
+    height: 34%;
+    width: 0.75%;
+    top: 16%;
+    left: 49.69%;
+    transform-origin: bottom;
+
+} 
